@@ -1,6 +1,6 @@
 
 
-const Cling = require('../build/Release/cling.node');
+import cling from './native';
 
-export default Cling;
+export default cling;
 

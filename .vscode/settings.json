@@ -1,5 +1,11 @@
 {
     "files.associations": {
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "type_traits": "cpp",
+        "xtr1common": "cpp",
+        "xutility": "cpp",
+        "*.inc": "cpp"
     }
 }
