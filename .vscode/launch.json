@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+       "type": "cppvsdbg",
+       "request": "launch",
+       "name": "Launch Program",
+       "cwd": ".",
+       "program": "C:/Program Files/nodejs/node.exe",
+       "args": [
+          "C:/src/github.com/cgrinker/sad/dist/index.js"
+       ],
+       "stopAtEntry": true,
+       "logging": {
+         
+         
+       }
+    }]
+  }

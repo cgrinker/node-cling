@@ -1,0 +1,22 @@
+{
+  "name": "sad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:native": "node-gyp rebuild",
+    "build:typescript": "tsc",
+    "clean:native": "node-gyp clean"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "node-gyp": "^9.4.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^7.0.0"
+  }
+}
